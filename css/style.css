@@ -1,0 +1,118 @@
+:root{
+    --main-font:font-family: 'Roboto', sans-serif;
+    --secondary-font:font-family: 'Raleway', sans-serif;
+    --main-color: #2196f3;
+}
+body{
+    font-family: var(--main-font);
+}
+.web-logo
+{text-decoration: none;
+    font-style: normal;
+    font-family: Raleway;
+    Font-style: Bold;
+    Font-size: 26px;
+    Line-height: 31px;
+    Line-height: 100%;
+    Vertical-align: Top;
+    Letter-spacing: 3%}
+
+.Web {
+  color: #2196f3;
+}
+
+.studio-black{color:
+    #000000;}
+.studio-white{color: #FFFFFF;
+}
+
+.list{
+  list-style: none;
+}
+
+.accent
+{
+    text-decoration: none;
+    Font-style: Medium;
+  Font-size: 14px;
+  Line-height: 16px;
+  Line-height: 100%;
+  Vertical-align: Top;
+  Letter-spacing: 2%;
+  color: #212121;
+}
+.first-signature{
+    color: #212121;
+}
+.second-signature{
+    color: #757575;
+}
+.foot{
+    text-decoration: none;
+    Font-size: 14px;
+Line-height: 16px;
+Line-height: 100%;
+Vertical-align: Top;
+Letter-spacing: 2%;
+color: #757575;
+}
+
+.accent:hover,
+.accent:focus,
+.foot:hover,
+.foot:focus,
+.button-order
+{color:var(--main-color)
+}
+
+.button-filtr:hover,
+.button-filtr:focus{background-color: #2196f3;
+color: #FFFFFF;
+cursor: pointer;}
+
+/* <!--stylizacja body> */
+
+.main
+{
+    background: #2F303A;
+    
+}
+.main-title{Font-size: 24px;
+    Line-height: 60px;
+    Line-height: 116%;
+    text-align: Center;
+    Vertical-align: Top;
+    Letter-spacing: 6%;
+color: #FFFFFF;
+}
+.button-order{
+    background-color: #2196f3;
+    display: block;
+    height: 50px;
+    width: 200px;
+    border-radius: 4px;
+    color: #FFFFFF;
+    font-size: 16px;
+    cursor: pointer;
+}
+.button-filtr{
+Font-size: 16px;
+Line-height: 26px;
+Line-height: 139%;
+Vertical-align: Top;
+Letter-spacing: 3%;
+background-color: #f5f4fa;
+}
+
+/* <!--stylizacja footer */
+
+.line{
+    font-style: normal;
+    background-color: #2F303A;}
+    .adress-link{
+        font-style: normal;
+        color: #FFFFFF;}
+ .footer-link{
+    font-style: normal;
+    text-decoration: none;
+color: rgba(255, 255, 255, 0.6);}
