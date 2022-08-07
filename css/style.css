@@ -17,7 +17,7 @@ body {
   line-height: 100%;
   vertical-align: Top;
   letter-spacing: 3%;
-  margin-right: 93px;
+  margin-right: 12px;
 }
 
 .Web {
@@ -35,16 +35,24 @@ body {
   list-style: none;
 }
 
+.accent:not(last-child) {
+  margin-right: 46px;
+}
+
+.list .contakt {
+  margin-right: auto;
+}
+
 .accent {
   text-decoration: none;
   font-style: Medium;
   font-size: 14px;
   vertical-align: top;
-  padding: 10px;
-  border: 10px;
-  margin: 20px, 10px, 20px, 30px;
+  /* border: 10px; */
+  /* margin: 20px, 10px, 20px, 30px; */
   letter-spacing: 2%;
   color: #212121;
+  margin: auto;
 }
 .first-signature {
   color: #212121;
@@ -81,25 +89,29 @@ body {
 
 .main {
   background: #2f303a;
+  width: 1200px;
+  height: 600px;
+  justify-content: center;
 }
 .main-title {
+  text-align: center;
+  font-weight: 700px;
   font-size: 24px;
   line-height: 60px;
   line-height: 116%;
-  text-align: Center;
-  vertical-align: Top;
   letter-spacing: 6%;
   color: #ffffff;
+  padding-top: 250px;
 }
 .button-order {
   background-color: #2196f3;
   display: block;
   height: 50px;
   width: 200px;
-  border-radius: 4px;
   color: #ffffff;
   font-size: 16px;
   cursor: pointer;
+  margin: auto;
 }
 .button-filtr {
   font-size: 16px;
@@ -128,17 +140,25 @@ body {
 .header-background {
   display: flex;
 }
+.list {
+  display: flex;
+  /* margin-right: 46px; */
+  width: 1200px;
+}
+.section {
+  width: 1200px;
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
 .container {
   width: 1200px;
   padding: 0 15px;
   align-items: center;
-  margin: 0 auto;
+  margin: o auto;
   display: flex;
+  justify-content: space-between;
 }
-.list {
-  display: flex;
-  margin-right: 46px;
-}
+
 .foot {
   display: flex;
   padding: 10px;
