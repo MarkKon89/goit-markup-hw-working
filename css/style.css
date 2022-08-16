@@ -39,20 +39,14 @@ body {
   margin-right: 46px;
 }
 
-.list .contakt {
-  margin-right: auto;
-}
-
 .accent {
   text-decoration: none;
   font-style: Medium;
   font-size: 14px;
   vertical-align: top;
-  /* border: 10px; */
-  /* margin: 20px, 10px, 20px, 30px; */
   letter-spacing: 2%;
   color: #212121;
-  margin: auto;
+  margin: 0;
 }
 .first-signature {
   color: #212121;
@@ -94,14 +88,18 @@ body {
   justify-content: center;
 }
 .main-title {
+  font-weight: 900;
+  font-size: 44px;
   text-align: center;
-  font-weight: 700px;
-  font-size: 24px;
-  line-height: 60px;
-  line-height: 116%;
-  letter-spacing: 6%;
   color: #ffffff;
-  padding-top: 250px;
+  text-transform: uppercase;
+  width: 696px;
+  margin-right: auto;
+  margin-left: auto;
+  padding: 0;
+  padding-top: 200px;
+  margin-bottom: 0;
+  margin-top: 0;
 }
 .button-order {
   background-color: #2196f3;
@@ -112,6 +110,7 @@ body {
   font-size: 16px;
   cursor: pointer;
   margin: auto;
+  margin-top: 30px;
 }
 .button-filtr {
   font-size: 16px;
@@ -142,8 +141,6 @@ body {
 }
 .list {
   display: flex;
-  /* margin-right: 46px; */
-  width: 1200px;
 }
 .section {
   width: 1200px;
@@ -154,7 +151,7 @@ body {
   width: 1200px;
   padding: 0 15px;
   align-items: center;
-  margin: o auto;
+  margin: 0 auto;
   display: flex;
   justify-content: space-between;
 }
@@ -162,4 +159,11 @@ body {
 .foot {
   display: flex;
   padding: 10px;
+}
+.script {
+  justify-content: center;
+  width: 270px;
+}
+.header {
+  text-align: center;
 }
